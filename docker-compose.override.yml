@@ -1,0 +1,13 @@
+services:
+  backend:
+    volumes:
+      - ./backend:/app
+      - backend_node_modules:/app/node_modules
+
+  frontend:
+    volumes:
+      - ./frontend:/usr/share/nginx/html
+
+volumes:
+  backend_node_modules:
+
