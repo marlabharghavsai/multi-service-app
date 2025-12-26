@@ -19,7 +19,7 @@ RabbitMQ	       Message queue
 ## Architecture Diagram
 ```
                   ┌──────────────┐
-                  │   Web Browser│
+                  │  Web Browser │
                   └───────┬──────┘
                           │
                     (Port 3000)
