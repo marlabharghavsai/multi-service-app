@@ -9,9 +9,9 @@
 - Services Included
 ```
 Service	              Description
-Frontend       	 Web client exposed to the host
-Backend API	     Application server that communicates with internal services
-PostgreSQL	     Relational database with persistent storage
+Frontend       	   Web client exposed to the host
+Backend API	       Application server that communicates with internal services
+PostgreSQL	       Relational database with persistent storage
 Redis	           In-memory cache
 RabbitMQ	       Message queue
 ```
@@ -19,7 +19,7 @@ RabbitMQ	       Message queue
 ## Architecture Diagram
 ```
                   ┌──────────────┐
-                  │   Web Browser │
+                  │   Web Browser│
                   └───────┬──────┘
                           │
                     (Port 3000)
